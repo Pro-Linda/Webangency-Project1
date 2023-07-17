@@ -1,0 +1,542 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  scroll-margin-right: auto;
+}
+
+/*................. Start of the Navigation with the Logo.................. */
+header {
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+
+nav img {
+  height: 45px;
+  position: absolute;
+  top: 50px;
+  transform: translate(0%, -50%);
+  margin-left: 70px;
+}
+
+nav {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+
+nav ul {
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+  margin-top: 30px;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: rgb(0, 0, 0);
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: black;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check {
+  display: none;
+}
+
+/*.................................Start of the Big Pisture with the Slidshow........................... */
+
+.at-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 8px solid #ddd;
+  width: 95%;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 5px 15px 25px rgba(0, 0, 0, 0.3);
+  margin: 7% 2% 1% 3%;
+}
+
+.slide {
+  display: flex;
+  animation: slide 20s infinite linear;
+}
+
+.slide img {
+  width: 100%;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+  10% {
+    transform: translateX(0%);
+  }
+  45% {
+    transform: translateX(-100%);
+  }
+  55% {
+    transform: translateX(-100%);
+  }
+  95% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.overslide {
+  position: absolute;
+  margin-left: 8%;
+  top: 35%;
+  width: 100%;
+  z-index: 2;
+}
+
+.front1 {
+  color: rgb(36, 174, 181);
+  font-size: 200%;
+  font-weight: 500;
+  text-align: left;
+}
+
+.front2 {
+  color: rgb(255, 255, 255);
+  font-size: 200%;
+  font-weight: 500;
+  text-align: left;
+}
+
+.front3 {
+  color: rgb(255, 255, 255);
+  font-size: 200%;
+  font-weight: 500;
+  text-align: left;
+}
+
+.front4 {
+  color: rgb(255, 255, 255);
+  font-size: 100%;
+  font-weight: 500;
+  text-align: left;
+}
+
+.button {
+  background-color: rgb(36, 174, 181);
+  color: rgb(255, 255, 255);
+  border-style: hidden;
+  border-radius: 5px;
+  padding: 15px;
+  z-index: 2;
+}
+
+/* ........................... Start of the Nos Services with the Icons PART ........................ */
+.Titres {
+  text-align: center;
+}
+
+.TitreNosServices {
+  display: block;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  padding-top: 80px;
+  padding-bottom: 41px;
+  font-weight: bold;
+}
+
+.TexteNosServices {
+  display: block;
+  color: grey;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+.SujetsBackground {
+  margin-top: -18px;
+}
+
+.Mainbox {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.ImgServices {
+  width: 30%;
+}
+
+.MainServicesIcons {
+  width: 18%;
+  color: rgb(68, 152, 197);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fa-chart-line {
+  position: relative;
+  font-size: 25px;
+  bottom: 3px;
+  right: -10px;
+}
+
+.fa-cubes {
+  position: relative;
+  font-size: 25px;
+  bottom: 3px;
+  right: -10px;
+}
+
+.fa-chart-pie {
+  position: relative;
+  font-size: 25px;
+  bottom: 3px;
+  right: -10px;
+}
+
+.fa-circle {
+  position: relative;
+  bottom: 20px;
+  right: -12px;
+  font-size: 14px;
+  display: flex;
+}
+
+.IconsBigCircle {
+  position: relative;
+  bottom: -37px;
+  margin: 0% 0% 28% 60%;
+  border: 2px solid rgba(224, 222, 222, 0.631);
+  border-radius: 60%;
+  width: 35%;
+  height: 35%;
+  padding: 7%;
+}
+
+.TextServices {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ..................Start of the Nos Projets Part with the Galelly......................... */
+
+.MainServicesBackground {
+  background-color: lightgray;
+}
+
+.MainServices {
+  text-align: left;
+}
+
+.TitreNosProjets {
+  display: block;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+.TexteNosProjets {
+  display: block;
+  color: grey;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.Separationligne {
+  display: block;
+  text-align: center;
+  border: 2px solid rgb(68, 152, 197);
+}
+
+.Menu ul {
+  margin: auto;
+  background-color: rgb(170, 170, 170);
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.Menu li {
+  display: inline-block;
+  border-bottom: 2px solid rgb(170, 170, 170);
+  margin-top: 15px;
+}
+
+.Menu li a:hover {
+  color: rgb(96, 96, 96);
+}
+
+.Menu a {
+  font-size: 18px;
+  color: rgb(96, 96, 96);
+  padding: 5px 3px 5px 8px;
+  text-decoration: none;
+}
+
+.Gallery {
+  padding-bottom: 30px;
+}
+
+.Gallery figure {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Gallery > figure img {
+  height: auto;
+  margin: 10px;
+  line-height: 75px;
+}
+
+/* ............... Start of the Footer with The Map and Adresse................. */
+.backgroundMap {
+  position: relative;
+  z-index: 1;
+}
+
+.backgroundMap > * {
+  position: absolute;
+}
+
+.middle {
+  background-color: rgba(0, 60, 255, 0.144);
+  bottom: -530px;
+  width: 100%;
+  height: 530px;
+  z-index: 2;
+}
+
+.frontFormular {
+  bottom: -500px;
+  margin-left: 65%;
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 30px;
+  background-color: rgb(245, 245, 245, 0.8);
+  z-index: 3;
+}
+
+.buttonFormular {
+  color: white;
+  width: 50%;
+  padding: 10px;
+  background-color: rgb(68, 152, 197);
+  border-style: hidden;
+  box-shadow: 2px 2px black;
+}
+
+input,
+textarea {
+  margin-bottom: 10px;
+}
+
+/* ........................Start of the responsive web design ............................ */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    font-size: 16px;
+    position: fixed;
+    width: 100%;
+    height: 250px;
+    background: white;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav ul li {
+    display: block;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  a:hover,
+  a.active {
+    background: none;
+  }
+
+  .overslide {
+    position: absolute;
+    top: 30%;
+    margin-left: 2%;
+    width: 90%;
+    height: 40%;
+    font-size: 40%;
+    font-weight: 10%;
+    z-index: 2;
+  }
+
+  .Mainbox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #pc {
+    width: 160%;
+  }
+
+  .MainServicesIcons {
+    display: none;
+  }
+
+  .fa-chart-line {
+    display: none;
+  }
+
+  .fa-cubes {
+    display: none;
+  }
+
+  .fa-chart-pie {
+    display: none;
+  }
+
+  .fa-circle {
+    display: none;
+  }
+
+  .IconsBigCircle {
+    display: none;
+  }
+
+  .TextServices {
+    position: relative;
+    left: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .frontFormular {
+    background-color: rgb(245, 245, 245, 0.8);
+    top: 540px;
+    left: -50%;
+    padding-bottom: 30px;
+    z-index: 3;
+  }
+}
+
+#check:checked ~ ul {
+  left: 0;
+}
+
+@media screen and (min-width: 767px) and (max-width: 1070px) {
+  nav ul {
+    padding-right: 5%;
+  }
+
+  .Mainbox {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #pc {
+    width: 130%;
+  }
+
+  .fa-chart-line {
+    position: relative;
+    font-size: 25px;
+    bottom: 25px;
+    right: 10px;
+  }
+
+  .fa-cubes {
+    position: relative;
+    font-size: 25px;
+    bottom: 25px;
+    right: 10px;
+  }
+
+  .fa-chart-pie {
+    position: relative;
+    font-size: 25px;
+    bottom: 25px;
+    right: 10px;
+  }
+
+  .fa-circle {
+    position: relative;
+    bottom: 45px;
+    right: 10px;
+    font-size: 14px;
+    display: flex;
+  }
+
+  .IconsBigCircle {
+    position: relative;
+    bottom: -35px;
+    margin: 0px 0px 55px 50px;
+    border: 2px solid rgba(224, 222, 222, 0.631);
+    border-radius: 60%;
+    width: 80px;
+    height: 80px;
+    padding: 40px;
+  }
+
+  .TextServices {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .frontFormular {
+    width: 37%;
+    bottom: -500px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    background-color: rgb(245, 245, 245, 0.8);
+    z-index: 3;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+  }
+}

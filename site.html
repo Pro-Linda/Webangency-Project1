@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/abf88c8a29.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="site.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+
+    <title>Mon Premier Site</title>
+  </head>
+
+  <body>
+    <!-- Start of the Navigation with the Logo -->
+    <div class="wrapper">
+      <header>
+        <nav>
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+          </label>
+
+          <img src="webagency_images/logo.png" />
+
+          <ul>
+            <li><a href="#Accueil">Accueil</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <!-- Start of the Big Pisture with the Slidshow -->
+    <section id="Accueil">
+      <div class="at-container">
+        <div class="slide">
+          <img src="webagency_images/slider/bg1.jpg" alt="girl" />
+
+          <img src="webagency_images/slider/bg2.jpg" alt="boy" />
+        </div>
+
+        <div class="overslide">
+          <p>
+            <span class="front1">WEBAGENCY</span
+            ><span class="front2"> : L'AGENCE DE TOUS</span>
+            <span class="front3">VOS PROJETS !</span>
+          </p>
+
+          <p>
+            <span class="front4"
+              >Vous avez un projet ? La Webagency vous aide à la réaliser.</span
+            >
+          </p>
+          <br />
+          <button class="button" type="submit">Plus d'infos</button>
+        </div>
+      </div>
+    </section>
+
+    <!---------- Start of the Nos Services with the Icons PART ------->
+    <section id="Services" class="SujetsBackground">
+      <div class="Titres">
+        <h1><span class="TitreNosServices">NOS SERVICES</span></h1>
+
+        <div class="Separationligne"></div>
+
+        <p>
+          <span class="TexteNosServices"
+            >De taille humaine, notre agence vous accompagne du début à fin de
+            votre projet. Nos experts vous aident à <br />optimismer
+            l'expérience utilisateur et tirer le meilleur potentiel de chaque
+            support du web au mobile.</span
+          >
+        </p>
+      </div>
+
+      <div class="Mainbox">
+        <div class="ImgServices">
+          <img id="pc" src="webagency_images/main_feature.png" alt="design" />
+        </div>
+
+        <div class="MainServicesIcons">
+          <div class="IconsBigCircle">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-sharp fa-solid fa-chart-line"></i>
+          </div>
+
+          <div class="IconsBigCircle">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-sharp fa-solid fa-cubes"></i>
+          </div>
+
+          <div class="IconsBigCircle">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-sharp fa-solid fa-chart-pie"></i>
+          </div>
+        </div>
+
+        <div class="TextServices">
+          <br />
+          <h2>UX design</h2>
+          <p>
+            Une équipe passionné qui place l'utilisateur final au centre de sa
+            démarche pour une technologie plus humaine.
+          </p>
+          <br />
+          <h2>UI design</h2>
+          <p>
+            Une interface optimisé qui permet à votre site web de rester à la
+            page au gré des évolutions techniques et des nouveaux usages.
+          </p>
+          <br />
+          <h2>SEO</h2>
+          <p>
+            Nos experts en référencement vous permettent d'améliorer le
+            positionnement de votre site afin d'augmenter votre conversion.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--------- Start of the Nos Projets Part with the Galelly -------->
+    <div class="MainServicesBackground">
+      <section id="Portfolio">
+        <div class="Titres">
+          <h1><span class="TitreNosProjets">NOS PROJETS</span></h1>
+
+          <div class="Separationligne"></div>
+
+          <p>
+            <span class="TexteNosProjets"
+              >Beaucoup 'enterprises et particulliers nous ont fais confiance
+              pour leur projet! Découvrez une sélection de nos
+              <br />réalisations tendances, modernes et innovantes.</span
+            >
+          </p>
+        </div>
+        <div class="Menu">
+          <ul>
+            <li>
+              <a href="#tous" title="Tous">Tous</a
+              ><span class="triangle"></span>
+            </li>
+            <li>
+              <a href="#creatives" title="Créations">Créations</a
+              ><span class="triangle"></span>
+            </li>
+            <li>
+              <a href="#corporate" title="Corporate">Corporate</a
+              ><span class="triangle"></span>
+            </li>
+            <li>
+              <a href="#book" title="Portfolio">Portfolio</a
+              ><span class="triangle"></span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <div class="Gallery">
+          <figure>
+            <div class="space">
+              <img
+                class="spac"
+                src="webagency_images/portfolio/01.jpg"
+                alt="Mr. Bean Glass"
+                width="230"
+              />
+            </div>
+
+            <div class="space">
+              <img
+                class="spac"
+                src="webagency_images/portfolio/02.jpg"
+                alt="Pink Bunny"
+                width="230"
+              />
+            </div>
+
+            <div class="space">
+              <img
+                class="spac"
+                src="webagency_images/portfolio/03.jpg"
+                alt="Original Pompadour"
+                width=" 230"
+              />
+            </div>
+
+            <div class="space">
+              <img
+                class="spac"
+                src="webagency_images/portfolio/04.jpg"
+                alt="Geometric Blog"
+                width="230"
+              />
+            </div>
+
+            <div class="space">
+              <img
+                class="spac"
+                src="webagency_images/portfolio/05.jpg"
+                alt="Shopping Bags"
+                width="230"
+              />
+            </div>
+
+            <div class="space">
+              <img
+                class="spac"
+                src="webagency_images/portfolio/06.jpg"
+                alt="Chinas Anime"
+                width="230"
+              />
+            </div>
+
+            <div class="space">
+              <img
+                class="spac"
+                src="webagency_images/portfolio/07.jpg"
+                alt="Raket Start"
+                width="230"
+              />
+            </div>
+
+            <div class="space">
+              <img
+                class="spac"
+                src="webagency_images/portfolio/08.jpg"
+                alt="Buro Stuff"
+                width="230"
+              />
+            </div>
+          </figure>
+        </div>
+      </section>
+    </div>
+
+    <!------------- Start of the Footer with The Map and Adresse ---------->
+    <footer>
+      <div class="backgroundMap">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.221425025154!2d2.3472506754785933!3d48.873055299675734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sde!2sfr!4v1669994652860!5m2!1sde!2sfr"
+          width="100%"
+          height="530"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="middle">
+          <p></p>
+        </div>
+
+        <div class="frontFormular">
+          <h1 id="Contact">Contact Info</h1>
+          <p>
+            <strong>WebAgency SAS</strong><br />
+            <em>25 rue d'Hauteville 75010 PARIS</em><br />
+            <em>Tel: +33102030405</em>
+          </p>
+          <form method="get" action="">
+            <input
+              type="text"
+              name="prenom"
+              id="prenom"
+              required
+              placeholder="Nom"
+              size="36"
+              maxlength="20"
+            /><br />
+
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Email"
+              size="36"
+              maxlength="20"
+            /><br />
+
+            <input
+              type="text"
+              name="sujet"
+              id="sujet"
+              placeholder="Sujet"
+              size="36"
+              maxlength="20"
+            /><br />
+
+            <textarea
+              name="message"
+              id="message"
+              required
+              placeholder="Votre message..."
+              rows="7"
+              cols="37"
+            ></textarea
+            ><br />
+            <button class="buttonFormular" type="submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    +
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
